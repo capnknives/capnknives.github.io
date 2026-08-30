@@ -1,0 +1,192 @@
+{
+  "towns": [
+    {
+      "name": "Seattle",
+      "kind": "town",
+      "left": 10.1,
+      "top": 7.28
+    },
+    {
+      "name": "Los Angeles",
+      "kind": "town",
+      "left": 9.05,
+      "top": 59.3
+    },
+    {
+      "name": "Denver",
+      "kind": "town",
+      "left": 35.31,
+      "top": 44.91
+    },
+    {
+      "name": "Dallas",
+      "kind": "town",
+      "left": 49.49,
+      "top": 72.11
+    },
+    {
+      "name": "Willis, Texas",
+      "kind": "town",
+      "left": 52.05,
+      "top": 81.12
+    },
+    {
+      "name": "Chicago",
+      "kind": "town",
+      "left": 65.45,
+      "top": 36.77
+    },
+    {
+      "name": "New York",
+      "kind": "town",
+      "left": 89.12,
+      "top": 35.2
+    },
+    {
+      "name": "Miami",
+      "kind": "town",
+      "left": 84.26,
+      "top": 93.81
+    },
+    {
+      "name": "Lebanon, Kansas",
+      "kind": "town",
+      "left": 46.45,
+      "top": 45.61
+    },
+    {
+      "name": "Lawrence, Kansas",
+      "kind": "town",
+      "left": 52.48,
+      "top": 49.1
+    },
+    {
+      "name": "Men of Letters bunker",
+      "kind": "town",
+      "left": 48.050000000000004,
+      "top": 43.84
+    }
+  ],
+  "dungeons": [
+    {
+      "name": "Roosevelt Asylum",
+      "kind": "dungeon",
+      "left": 62.81,
+      "top": 35.6
+    },
+    {
+      "name": "Burkitsville Orchard",
+      "kind": "dungeon",
+      "left": 83.56,
+      "top": 42.14
+    },
+    {
+      "name": "Elkins' Ridge",
+      "kind": "dungeon",
+      "left": 34.8,
+      "top": 44.45
+    },
+    {
+      "name": "Monster Mafia Underground",
+      "kind": "dungeon",
+      "left": 65.45,
+      "top": 36.77
+    },
+    {
+      "name": "Besieged Parish",
+      "kind": "dungeon",
+      "left": 54.21,
+      "top": 30.23
+    },
+    {
+      "name": "Lloyd's Crossroads",
+      "kind": "dungeon",
+      "left": 62.2,
+      "top": 68.94
+    },
+    {
+      "name": "Shattered Mirror District",
+      "kind": "dungeon",
+      "left": 72.5,
+      "top": 36.28
+    },
+    {
+      "name": "Bunker Outskirts",
+      "kind": "dungeon",
+      "left": 46.8,
+      "top": 45.63
+    },
+    {
+      "name": "Reaper's Convergence",
+      "kind": "dungeon",
+      "left": 54.16,
+      "top": 55.49
+    },
+    {
+      "name": "Stull Convergence",
+      "kind": "dungeon",
+      "left": 51.94,
+      "top": 49.11
+    },
+    {
+      "name": "Fossil Butte Convergence",
+      "kind": "dungeon",
+      "left": 31.15,
+      "top": 36.22
+    },
+    {
+      "name": "Rivertown Remnant (Croatoan)",
+      "kind": "dungeon",
+      "left": 7.86,
+      "top": 15.17
+    },
+    {
+      "name": "Calumet Truth District",
+      "kind": "dungeon",
+      "left": 65.68,
+      "top": 37.87
+    },
+    {
+      "name": "Canton Wax Museum",
+      "kind": "dungeon",
+      "left": 76.4,
+      "top": 38.8
+    },
+    {
+      "name": "Dearborn Judgment Farm",
+      "kind": "dungeon",
+      "left": 72.82,
+      "top": 33.93
+    },
+    {
+      "name": "Tomahawk Billhook Plant",
+      "kind": "dungeon",
+      "left": 61.31,
+      "top": 24.11
+    },
+    {
+      "name": "Laramie Auction Warehouse",
+      "kind": "dungeon",
+      "left": 34.45,
+      "top": 38.71
+    },
+    {
+      "name": "Hartford Whitmer Farm",
+      "kind": "dungeon",
+      "left": 49.21,
+      "top": 30.26
+    },
+    {
+      "name": "Muncie Elysian Ruin",
+      "kind": "dungeon",
+      "left": 69.65,
+      "top": 42.54
+    },
+    {
+      "name": "Sonoran Coyote Shrine",
+      "kind": "dungeon",
+      "left": 20.18,
+      "top": 65.64
+    }
+  ]
+}

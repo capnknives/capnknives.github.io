@@ -1,0 +1,783 @@
+{
+  "items": [
+    {
+      "date": "2026-08-30 01:31",
+      "sort_ts": "2026-08-30T01:31:52Z",
+      "slug": "www-news-ticker",
+      "summary": "Public door news is a ticker now, not one line.",
+      "body": "Public door news is a ticker now, not one line. Open play.riftforge.me: the News box rotates through what shipped, Previous and Next walk the list, and a click opens the full change. News is also a scrollable archive of the same ships as in-game changes.",
+      "try": "Open play.riftforge.me: the News box rotates through what shipped, Previous and Next walk the list, and a click opens the full change. News is also a scrollable archive of the same ships as in-game changes."
+    },
+    {
+      "date": "2026-08-30 00:21",
+      "sort_ts": "2026-08-30T00:21:01Z",
+      "slug": "web-client-tab-restore",
+      "summary": "Browser play no longer smears when you tab away and come back.",
+      "body": "Browser play no longer smears when you tab away and come back. Maps and the story log redraw when the tab is visible again. A computer window that is just a bit narrow still shows the atlas and gauges -- Log / Maps / Status / More stays a phone bar. Hard-refresh the play page. See help browser.",
+      "try": "Maps and the story log redraw when the tab is visible again. A computer window that is just a bit narrow still shows the atlas and gauges -- Log / Maps / Status / More stays a phone bar. Hard-refresh the play page. See help browser."
+    },
+    {
+      "date": "2026-08-30 00:16",
+      "sort_ts": "2026-08-30T00:16:57Z",
+      "slug": "bug-959-death-idle-desk-prose",
+      "summary": "Death's Reading Room no longer claims Death stepped away while you are still there.",
+      "body": "Death's Reading Room no longer claims Death stepped away while you are still there. Fixes the empty-chair line when Death (or staff on the Death account) stays in the Reading Room in idle mode or while logged in. Natural Order still stalls when Death leaves the room or staff marks the desk away.",
+      "try": "Fixes the empty-chair line when Death (or staff on the Death account) stays in the Reading Room in idle mode or while logged in. Natural Order still stalls when Death leaves the room or staff marks the desk away."
+    },
+    {
+      "date": "2026-08-29 23:50",
+      "sort_ts": "2026-08-29T23:50:25Z",
+      "slug": "echo-prefs-truth-and-control",
+      "summary": "Echo policy now tells the truth, and you can split hunts from haunts, leash how far your body roams, and keep desk contracts off the grocery toggle.",
+      "body": "Echo policy now tells the truth, and you can split hunts from haunts, leash how far your body roams, and keep desk contracts off the grocery toggle. Type echo life for board hunts versus house haunts, echo travel_leash town|region|open, and echo contracts / echo cases. echo missions off (or dungeon, train, work off) drops a stamped seek -- prefs win, and journal echo records the beat. Gifts honor who may give to your Echo. See help echo.",
+      "try": "Type echo life for board hunts versus house haunts, echo travel_leash town|region|open, and echo contracts / echo cases. echo missions off (or dungeon, train, work off) drops a stamped seek -- prefs win, and journal echo records the beat. Gifts honor who may give to your Echo. See help echo."
+    },
+    {
+      "date": "2026-08-29 23:44",
+      "sort_ts": "2026-08-29T23:44:48Z",
+      "slug": "bug-958-phone-text-tone-ping",
+      "summary": "Incoming texts and calls ping your handset again.",
+      "body": "Incoming texts and calls ping your handset again. Live SMS now plays your text tone (phone settings texttone ping or default) before the message line; silent skips the ping. Incoming calls ring with your ringtone setting first. Queued texts play the tone when they flush on login.",
+      "try": "Live SMS now plays your text tone (phone settings texttone ping or default) before the message line; silent skips the ping. Incoming calls ring with your ringtone setting first. Queued texts play the tone when they flush on login."
+    },
+    {
+      "date": "2026-08-29 23:38",
+      "sort_ts": "2026-08-29T23:38:10Z",
+      "slug": "www-news-page",
+      "summary": "The public door now has a News page with the same ships you see when you type changes.",
+      "body": "The public door now has a News page with the same ships you see when you type changes. Open play.riftforge.me/news, or type changes once you are in. Staff notes stay off the door.",
+      "try": "Open play.riftforge.me/news, or type changes once you are in. Staff notes stay off the door."
+    },
+    {
+      "date": "2026-08-29 23:31",
+      "sort_ts": "2026-08-29T23:31:05Z",
+      "slug": "ash-questions-retrieve",
+      "summary": "Ash on the questions net reads the right help page more often.",
+      "body": "Ash on the questions net reads the right help page more often. Ask how to plug a laptop in, add a homestead room, or which Origin plays like a Hunter and he should point at help laptop, help homestead, or help hunter -- not a made-up class or help with angle brackets. Humans on the net still win. See help questions.",
+      "try": "Ask how to plug a laptop in, add a homestead room, or which Origin plays like a Hunter and he should point at help laptop, help homestead, or help hunter -- not a made-up class or help with angle brackets. Humans on the net still win. See help questions."
+    },
+    {
+      "date": "2026-08-29 23:30",
+      "sort_ts": "2026-08-29T23:30:52Z",
+      "slug": "job-desk-xp-phase2",
+      "summary": "Day jobs that already do the work now train the matching skill.",
+      "body": "Day jobs that already do the work now train the matching skill. Clock in as diner cook, farmhand, paramedic, Men of Letters archivist, taxi driver, or tow truck driver and the desk verbs raise Cooking, Farming, First Aid, Research, or Driving. Haircuts still do not train Tailoring. Refinery and scrap reclaim shifts show kettle work each paid hour and train Smithing a little -- forge and ammo packing stay the deep loop.",
+      "try": "Clock in as diner cook, farmhand, paramedic, Men of Letters archivist, taxi driver, or tow truck driver and the desk verbs raise Cooking, Farming, First Aid, Research, or Driving. Haircuts still do not train Tailoring. Refinery and scrap reclaim shifts show kettle work each paid hour and train Smithing a little -- forge and ammo packing stay the deep loop."
+    },
+    {
+      "date": "2026-08-29 23:18",
+      "sort_ts": "2026-08-29T23:18:57Z",
+      "slug": "echo-hub-work-control",
+      "summary": "Echo policy hub is a gothic sheet now, and you can pin which jobs your body clocks while you are away.",
+      "body": "Echo policy hub is a gothic sheet now, and you can pin which jobs your body clocks while you are away. Type echo for the overview, echo work to set gig intensity (when-broke, always, or off), and echo work allow fast food cook / echo work deny bartender to keep Cadence off the stools you hate. Nested pages live at echo social, echo risk, and echo life -- help echo.",
+      "try": "Type echo for the overview, echo work to set gig intensity (when-broke, always, or off), and echo work allow fast food cook / echo work deny bartender to keep Cadence off the stools you hate. Nested pages live at echo social, echo risk, and echo life -- help echo."
+    },
+    {
+      "date": "2026-08-29 22:55",
+      "sort_ts": "2026-08-29T22:55:53Z",
+      "slug": "cadence-lifestyle-dispatcher",
+      "summary": "Idle neighbors still fish, farm, and stalk after a shift.",
+      "body": "Idle neighbors still fish, farm, and stalk after a shift. A hunt patrol no longer eats every leisure beat. Whole fish get cleaned with fillet before they sell the catch. Type help cadence more.",
+      "try": "A hunt patrol no longer eats every leisure beat. Whole fish get cleaned with fillet before they sell the catch. Type help cadence more."
+    },
+    {
+      "date": "2026-08-29 22:47",
+      "sort_ts": "2026-08-29T22:47:07Z",
+      "slug": "help-pager-not-split",
+      "summary": "Long help now uses the pager instead of a second help topic more command.",
+      "body": "Long help now uses the pager instead of a second help topic more command. Type help angel once, then more or stop to keep reading (config pager sets how many lines). Old names like help angel more still land on the same page.",
+      "try": "Type help angel once, then more or stop to keep reading (config pager sets how many lines). Old names like help angel more still land on the same page."
+    },
+    {
+      "date": "2026-08-29 22:16",
+      "sort_ts": "2026-08-29T22:16:24Z",
+      "slug": "cadence-lifestyle-farm-hunt-herbs",
+      "summary": "Neighbors farm, stalk game, and pick smoke herbs the same way you do.",
+      "body": "Neighbors farm, stalk game, and pick smoke herbs the same way you do. When leisure hits SEEK, idle bodies and townsfolk may harvest the co-op field or their own garden, stalk a hunt blind then butcher the carcass, or buy dried herb at the speakeasy and pick wild strains outdoors. Type help cadence more, help farming, help hunting, and help herbs.",
+      "try": "When leisure hits SEEK, idle bodies and townsfolk may harvest the co-op field or their own garden, stalk a hunt blind then butcher the carcass, or buy dried herb at the speakeasy and pick wild strains outdoors. Type help cadence more, help farming, help hunting, and help herbs."
+    },
+    {
+      "date": "2026-08-29 22:00",
+      "sort_ts": "2026-08-29T22:00:59Z",
+      "slug": "bug-954-hdelete-multi-word",
+      "summary": "`hdelete` now accepts multi-word help keywords (e.g. `hdelete angel more confirm`), matching `hedit` and split \"more\" child pages.",
+      "body": "`hdelete` now accepts multi-word help keywords (e.g. `hdelete angel more confirm`), matching `hedit` and split \"more\" child pages."
+    },
+    {
+      "date": "2026-08-29 21:46",
+      "sort_ts": "2026-08-29T21:46:26Z",
+      "slug": "cadence-overhaul-stalls",
+      "summary": "Neighbors no longer freeze on a stalled job or skip a meal to walk to the counter.",
+      "body": "Neighbors no longer freeze on a stalled job or skip a meal to walk to the counter. A theft contract that cannot move, or a quiet Special Child binge, yields the beat so errands and fights can run. Clerks eat or drink first when they are critically hungry, idle Winchester jobs eat when the hunt is not actually stepping, and thirsty townsfolk still get a turn when the street is crowded. Type help cadence.",
+      "try": "A theft contract that cannot move, or a quiet Special Child binge, yields the beat so errands and fights can run. Clerks eat or drink first when they are critically hungry, idle Winchester jobs eat when the hunt is not actually stepping, and thirsty townsfolk still get a turn when the street is crowded. Type help cadence."
+    },
+    {
+      "date": "2026-08-29 21:34",
+      "sort_ts": "2026-08-29T21:34:55Z",
+      "slug": "cadence-town-echo-parity",
+      "summary": "Townsfolk now live the same errand loop as idle Echoes.",
+      "body": "Townsfolk now live the same errand loop as idle Echoes. Neighbors climb out of a car when thirst or hunger needs the street, restock a lover's blood groceries, run paid DoorDash and Nest blood drops, treat worn kit, and attune on a home plane instead of pacing the gym. A living body yanked to Heaven or Hell gets recalled the same way an idle Echo does -- and that recall no longer claims you made it home when the landing was blocked. Type help cadence.",
+      "try": "Neighbors climb out of a car when thirst or hunger needs the street, restock a lover's blood groceries, run paid DoorDash and Nest blood drops, treat worn kit, and attune on a home plane instead of pacing the gym. A living body yanked to Heaven or Hell gets recalled the same way an idle Echo does -- and that recall no longer claims you made it home when the landing was blocked. Type help cadence."
+    },
+    {
+      "date": "2026-08-29 21:33",
+      "sort_ts": "2026-08-29T21:33:31Z",
+      "slug": "suggest-326-phone-transfer",
+      "summary": "Upgrade your phone without losing your number: carry both handsets and type phone transfer (or phone transfer to <handset>) to move your line onto a new flip or smartphone.",
+      "body": "Upgrade your phone without losing your number: carry both handsets and type phone transfer (or phone transfer to <handset>) to move your line onto a new flip or smartphone."
+    },
+    {
+      "date": "2026-08-29 21:19",
+      "sort_ts": "2026-08-29T21:19:38Z",
+      "slug": "tv-pawn-stock",
+      "summary": "Pawn and retail sell a battered TV.",
+      "body": "Pawn and retail sell a battered TV. Living rooms usually already have a set. If yours does not, buy one, carry it home, then drop television or install television. Type watch for Channel 7.",
+      "try": "Living rooms usually already have a set. If yours does not, buy one, carry it home, then drop television or install television. Type watch for Channel 7."
+    },
+    {
+      "date": "2026-08-29 20:48",
+      "sort_ts": "2026-08-29T20:48:49Z",
+      "slug": "mechanic-mods-1c",
+      "summary": "Craftable car mods and tire chains.",
+      "body": "Craftable car mods and tire chains. Craft light mod parts at the garage bench (craft garage), then install at Ash Garage for about ten dollars lift labor and Mechanic practice -- or service mod on duty with the part for free labor. Paying catalog dollars for mechanic mod still works but does not train. On the road, repaircar chains lashes crafted tire chains for short off-road grip; they are not a sixth catalog mod.",
+      "try": "Craft light mod parts at the garage bench (craft garage), then install at Ash Garage for about ten dollars lift labor and Mechanic practice -- or service mod on duty with the part for free labor. Paying catalog dollars for mechanic mod still works but does not train. On the road, repaircar chains lashes crafted tire chains for short off-road grip; they are not a sixth catalog mod."
+    },
+    {
+      "date": "2026-08-29 20:47",
+      "sort_ts": "2026-08-29T20:47:59Z",
+      "slug": "tech-media-watch-tv-line",
+      "summary": "Watch at a TV stays on Channel 7.",
+      "body": "Watch at a TV stays on Channel 7. A second watch no longer tacks on \"you linger, already at ease\" after the program.",
+      "try": "A second watch no longer tacks on \"you linger, already at ease\" after the program."
+    },
+    {
+      "date": "2026-08-29 20:44",
+      "sort_ts": "2026-08-29T20:44:01Z",
+      "slug": "mechanic-desk-xp-1b",
+      "summary": "On-duty bay work trains Mechanic.",
+      "body": "On-duty bay work trains Mechanic. Clock in at Ash Garage and service diagnose, patch, or full service now raises your Mechanic skill. Singer Salvage sort and stash do too. Paying Riv with mechanic repair, paint, or mod still does not -- same split as craft garage vs the town shop.",
+      "try": "Clock in at Ash Garage and service diagnose, patch, or full service now raises your Mechanic skill. Singer Salvage sort and stash do too. Paying Riv with mechanic repair, paint, or mod still does not -- same split as craft garage vs the town shop."
+    },
+    {
+      "date": "2026-08-29 20:41",
+      "sort_ts": "2026-08-29T20:41:10Z",
+      "slug": "mechanic-craft-garage-1a",
+      "summary": "Mechanic bench got a real ladder.",
+      "body": "Mechanic bench got a real ladder. Stand at Ash Garage (or a home workshop) and type craft garage for novice kit -- jury-rigged flashlight, wrench kit, jumper cables, door bar, spare belt, tire iron, then toolbox, patch kit, blowgun, and shotgun assembly. Patch kits are easier to craft now; paying Riv at the town bay still does not train Mechanic.",
+      "try": "Stand at Ash Garage (or a home workshop) and type craft garage for novice kit -- jury-rigged flashlight, wrench kit, jumper cables, door bar, spare belt, tire iron, then toolbox, patch kit, blowgun, and shotgun assembly. Patch kits are easier to craft now; paying Riv at the town bay still does not train Mechanic."
+    },
+    {
+      "date": "2026-08-29 20:15",
+      "sort_ts": "2026-08-29T20:15:23Z",
+      "slug": "echo-journal-heat",
+      "summary": "Echo journal names how heat climbed.",
+      "body": "Echo journal names how heat climbed. Log back in burning with sheriff or Accord heat? Type journal echo heat to see the live meters and each climb -- a heist, a pickpocket, a public true form, a fight in the sheriff's office. Login [ECHO JOURNAL] and journal echo since call out loud heat too. Staff: gm lifelog <name> heat. See help echo-journal.",
+      "try": "Log back in burning with sheriff or Accord heat? Type journal echo heat to see the live meters and each climb -- a heist, a pickpocket, a public true form, a fight in the sheriff's office. Login [ECHO JOURNAL] and journal echo since call out loud heat too. Staff: gm lifelog <name> heat. See help echo-journal."
+    },
+    {
+      "date": "2026-08-29 20:11",
+      "sort_ts": "2026-08-29T20:11:37Z",
+      "slug": "help-continuation-footer",
+      "summary": "Help pages now flag their own \"part 2\" instead of hiding it in the See also list.",
+      "body": "Help pages now flag their own \"part 2\" instead of hiding it in the See also list. A long help page's own overflow child (`help cases` → `help cases more`) used to sit in the same RELATED footer as genuinely different topics, so it read like just another cross-reference. Those pages now get their own CONTINUED line instead, so it's clear you're reading the rest of the same page, not jumping somewhere new.",
+      "try": "A long help page's own overflow child (`help cases` → `help cases more`) used to sit in the same RELATED footer as genuinely different topics, so it read like just another cross-reference. Those pages now get their own CONTINUED line instead, so it's clear you're reading the rest of the same page, not jumping somewhere new."
+    },
+    {
+      "date": "2026-08-29 19:58",
+      "sort_ts": "2026-08-29T19:58:04Z",
+      "slug": "tech-media-live-cut",
+      "summary": "Phones, TVs, and Channel 7 match the help.",
+      "body": "Phones, TVs, and Channel 7 match the help. Ash Garage stocks flips, smartphones, pagers, ham handhelds, and dashcams. Dial a motel or house landline and it rings the people in that room. Smartphone apps die in a cell blackout; pay collect charges with answer collect; pay the plan with phone bill pay. Dashcams record as you drive. Channel 7 uses klvn onair (help klvn) — Cosmic/God still type channel. Harvelle's bar has a TV you can watch.",
+      "try": "Ash Garage stocks flips, smartphones, pagers, ham handhelds, and dashcams. Dial a motel or house landline and it rings the people in that room. Smartphone apps die in a cell blackout; pay collect charges with answer collect; pay the plan with phone bill pay. Dashcams record as you drive. Channel 7 uses klvn onair (help klvn) — Cosmic/God still type channel. Harvelle's bar has a TV you can watch."
+    },
+    {
+      "date": "2026-08-29 19:40",
+      "sort_ts": "2026-08-29T19:40:55Z",
+      "slug": "hdelete-gm-verb",
+      "summary": "GMs can now delete a leftover hedit help page.",
+      "body": "GMs can now delete a leftover hedit help page. Redoing a helpfile with `hedit` could leave the old draft or a \"topic more\" child behind with nothing pointing at it anymore. `hdelete <topic>` previews what a hedit overlay page holds, and `hdelete <topic> confirm` removes it (falling back to the static page underneath if one still exists).",
+      "try": "Redoing a helpfile with `hedit` could leave the old draft or a \"topic more\" child behind with nothing pointing at it anymore. `hdelete <topic>` previews what a hedit overlay page holds, and `hdelete <topic> confirm` removes it (falling back to the static page underneath if one still exists)."
+    },
+    {
+      "date": "2026-08-29 19:31",
+      "sort_ts": "2026-08-29T19:31:48Z",
+      "slug": "page-offline-session",
+      "summary": "`page` to an offline Echo no longer crashes.",
+      "body": "`page` to an offline Echo no longer crashes. You still get \"Page sent\"; they see the burst when they log in if it stored on their pager.",
+      "try": "You still get \"Page sent\"; they see the burst when they log in if it stored on their pager."
+    },
+    {
+      "date": "2026-08-29 19:21",
+      "sort_ts": "2026-08-29T19:21:12Z",
+      "slug": "bug-943-install-street-home",
+      "summary": "install in a claimed street home now tells you to use move, not homestead install.",
+      "body": "install in a claimed street home now tells you to use move, not homestead install. Beds and furniture in town houses still use move bed <direction>. See help lodging.",
+      "try": "Beds and furniture in town houses still use move bed <direction>. See help lodging."
+    },
+    {
+      "date": "2026-08-29 19:16",
+      "sort_ts": "2026-08-29T19:16:14Z",
+      "slug": "werewolf-skinwalker-motel",
+      "summary": "Werewolf, Skinwalker, and motel Shapeshifter are three different picks.",
+      "body": "Werewolf, Skinwalker, and motel Shapeshifter are three different picks. At create, choose Werewolf or Skinwalker (beast-changers) or Shapeshifter (steal a living face). Help shifter, help werewolf, help skinwalker, and help shapeshifter spell the split. Motel: assume a name in the room; silver through the heart.",
+      "try": "At create, choose Werewolf or Skinwalker (beast-changers) or Shapeshifter (steal a living face). Help shifter, help werewolf, help skinwalker, and help shapeshifter spell the split. Motel: assume a name in the room; silver through the heart."
+    },
+    {
+      "date": "2026-08-29 19:14",
+      "sort_ts": "2026-08-29T19:14:36Z",
+      "slug": "bug-940-curio-phone-text",
+      "summary": "Curio Lux line texts again.",
+      "body": "Curio Lux line texts again. After greet, talk curio number saves his stable cell (555-1587). phone text curio or that number reaches his wagon for where and quote replies; phone save refuses numbers that are not in service.",
+      "try": "After greet, talk curio number saves his stable cell (555-1587). phone text curio or that number reaches his wagon for where and quote replies; phone save refuses numbers that are not in service."
+    },
+    {
+      "date": "2026-08-29 19:13",
+      "sort_ts": "2026-08-29T19:13:38Z",
+      "slug": "bug-946-cases-zone-board",
+      "summary": "Sheriff case boards stay in their own towns.",
+      "body": "Sheriff case boards stay in their own towns. Calder's Lebanon desk no longer lists or hands out a Grants Pass scene. Type cases at the office that covers that town, then cases take. See help cases.",
+      "try": "Calder's Lebanon desk no longer lists or hands out a Grants Pass scene. Type cases at the office that covers that town, then cases take. See help cases."
+    },
+    {
+      "date": "2026-08-29 19:11",
+      "sort_ts": "2026-08-29T19:11:40Z",
+      "slug": "bug-939-homestead-void-claim",
+      "summary": "Wilds homestead claims no longer stake on atlas void or open water; existing void plots heal onto firm ground on load with a notice when the site moves.",
+      "body": "Wilds homestead claims no longer stake on atlas void or open water; existing void plots heal onto firm ground on load with a notice when the site moves."
+    },
+    {
+      "date": "2026-08-29 19:05",
+      "sort_ts": "2026-08-29T19:05:38Z",
+      "slug": "bug-950-copyover-ooc-log",
+      "summary": "OOC during copyover survives in replay and ooc.log.",
+      "body": "OOC during copyover survives in replay and ooc.log. While the Veil reloads the game behind the gateway, ooc lines you type still land in bare ooc history and staff mining logs after the rewrite finishes — they no longer vanish when copyover settles.",
+      "try": "While the Veil reloads the game behind the gateway, ooc lines you type still land in bare ooc history and staff mining logs after the rewrite finishes — they no longer vanish when copyover settles."
+    },
+    {
+      "date": "2026-08-29 19:01",
+      "sort_ts": "2026-08-29T19:01:47Z",
+      "slug": "bug-944-hunternet-vnum",
+      "summary": "Hunternet tips name the place, not the room id.",
+      "body": "Hunternet tips name the place, not the room id. Open haunt and sheriff-case leads on online hunternet tips now show the authored place name (for example Lawrence - Elm Street Home) instead of internal room codes like lq00014. Possession tips show character names. See help online and help hunternet.",
+      "try": "Open haunt and sheriff-case leads on online hunternet tips now show the authored place name (for example Lawrence - Elm Street Home) instead of internal room codes like lq00014. Possession tips show character names. See help online and help hunternet."
+    },
+    {
+      "date": "2026-08-29 19:01",
+      "sort_ts": "2026-08-29T19:01:44Z",
+      "slug": "help-topics-dedupe-gm-off-index",
+      "summary": "Help topics no longer repeat form and fuel; gm off staff see the player help index.",
+      "body": "Help topics no longer repeat form and fuel; gm off staff see the player help index. Bare help and help topics dedupe shared hub rows (first category wins). Staff with gm off no longer see GM or Builder index bands — match help gmmode and use help gmtopics only while in GM form.",
+      "try": "Bare help and help topics dedupe shared hub rows (first category wins). Staff with gm off no longer see GM or Builder index bands — match help gmmode and use help gmtopics only while in GM form."
+    },
+    {
+      "date": "2026-08-29 19:01",
+      "sort_ts": "2026-08-29T19:01:29Z",
+      "slug": "bug-891-floor-item-plural",
+      "summary": "Stacked floor loot with container names (plates of cookies, pairs of jeans) now pluralize correctly instead of adding extra “es” to words that already end in s.",
+      "body": "Stacked floor loot with container names (plates of cookies, pairs of jeans) now pluralize correctly instead of adding extra “es” to words that already end in s."
+    },
+    {
+      "date": "2026-08-29 19:00",
+      "sort_ts": "2026-08-29T19:00:43Z",
+      "slug": "bug-933-dreamwalker-earthwalk",
+      "summary": "Dreamwalker earthwalk from the Threshold lands on Prime again.",
+      "body": "Dreamwalker earthwalk from the Threshold lands on Prime again. Chargen still homes you on the Dream plane, but your first earthwalk no longer sends you back to the Threshold by mistake — it posts you to Lebanon Square (or your real Earth home once you have one).",
+      "try": "Chargen still homes you on the Dream plane, but your first earthwalk no longer sends you back to the Threshold by mistake — it posts you to Lebanon Square (or your real Earth home once you have one)."
+    },
+    {
+      "date": "2026-08-29 18:56",
+      "sort_ts": "2026-08-29T18:56:46Z",
+      "slug": "flavor-placeholder-families",
+      "summary": "Fight flavor opens for more kits.",
+      "body": "Fight flavor opens for more kits. Slayers pick slayer_motion (surge, blur, stake, instinct -- Chosen strength and speed, not hunter footwork). Men of Letters pick archivist_voice (catalog, doctrine, margin, wardline -- bunker craft, not Hunter Arts). Cosmic Elementals get elemental_voice from Path; Patron Channeling counts as their Elemental Magic at the rank they have, locked to their Aspect (Fire still burns). Vampires, demons, Wendigo, ghouls, Arachne, djinn, ghosts, and reapers get starter-discipline voices too. Hex sweet/oldways, devouring crushing/mimic, and hellcraft bargain/ward overlays fill in. Try flavor after you learn the discipline.",
+      "try": "Slayers pick slayer_motion (surge, blur, stake, instinct -- Chosen strength and speed, not hunter footwork). Men of Letters pick archivist_voice (catalog, doctrine, margin, wardline -- bunker craft, not Hunter Arts). Cosmic Elementals get elemental_voice from Path; Patron Channeling counts as their Elemental Magic at the rank they have, locked to their Aspect (Fire still burns). Vampires, demons, Wendigo, ghouls, Arachne, djinn, ghosts, and reapers get starter-discipline voices too. Hex sweet/oldways, devouring crushing/mimic, and hellcraft bargain/ward overlays fill in. Try flavor after you learn the discipline."
+    },
+    {
+      "date": "2026-08-29 18:53",
+      "sort_ts": "2026-08-29T18:53:46Z",
+      "slug": "phone-status-str-join",
+      "summary": "Bare `phone` no longer crashes when listing your handset.",
+      "body": "Bare `phone` no longer crashes when listing your handset. Type `phone` to see number, speakerphone, and (on a smartphone) Peach Market apps.",
+      "try": "Type `phone` to see number, speakerphone, and (on a smartphone) Peach Market apps."
+    },
+    {
+      "date": "2026-08-29 18:21",
+      "sort_ts": "2026-08-29T18:21:03Z",
+      "slug": "bug-949-flavor-eligibility",
+      "summary": "Fight flavor now opens only for disciplines you have actually learned (rank 1+), not every rank-0 stub on your sheet. Leviathans with Devouring get devouring_voice tags (ravenous, crushing, oily, mimic); Occultists with Hellcraft get hellcraft_voice tags (binding, infernal, bargain, ward). Stale hunter_motion picks saved under the old gate drop on login. Try flavor set devouring_voice oily or flavor set hellcraft_voice binding after you learn the discipline.",
+      "body": "Fight flavor now opens only for disciplines you have actually learned (rank 1+), not every rank-0 stub on your sheet. Leviathans with Devouring get devouring_voice tags (ravenous, crushing, oily, mimic); Occultists with Hellcraft get hellcraft_voice tags (binding, infernal, bargain, ward). Stale hunter_motion picks saved under the old gate drop on login. Try flavor set devouring_voice oily or flavor set hellcraft_voice binding after you learn the discipline."
+    },
+    {
+      "date": "2026-08-29 18:18",
+      "sort_ts": "2026-08-29T18:18:22Z",
+      "slug": "autoloot-smart-default",
+      "summary": "Autoloot starts on a quieter scoop: coins, kit reagents, strongboxes, and needs your Origin can actually use.",
+      "body": "Autoloot starts on a quieter scoop: coins, kit reagents, strongboxes, and needs your Origin can actually use. Weapons, armor, and junk stay on the floor unless you type autoloot gear (dothepit still turns that farm map on for you). Type autoloot smart to restore the chargen map, and leftover gear now says filters instead of pretending your bags were full. See help autoloot.",
+      "try": "Weapons, armor, and junk stay on the floor unless you type autoloot gear (dothepit still turns that farm map on for you). Type autoloot smart to restore the chargen map, and leftover gear now says filters instead of pretending your bags were full. See help autoloot."
+    },
+    {
+      "date": "2026-08-29 18:06",
+      "sort_ts": "2026-08-29T18:06:59Z",
+      "slug": "help-audit-orphan-and-miss-cleanup",
+      "summary": "Help topics no longer repeats itself, and help understands spaced-out verb names.",
+      "body": "Help topics no longer repeats itself, and help understands spaced-out verb names. `help topics` used to print the same page name once per section it belonged to (`help form` showed up half a dozen times), and a few GM-only pages were leaking into the player-visible index — the A-Z index now lists every topic exactly once, player-clean. Typing help with a space in a one-word verb (phantom step, for phantomstep) now finds the page instead of \"no such topic\". help library, help tailoring, help hiking, help bloodkin, help jawblade, and help petskills now land on the right lore, and help folded points at the GM fold/unfold reference (not the unrelated crime \"crooks fold\" outcome). New help alert and help refresh pages point at the real (scattered) mechanics behind those words instead of dead-ending. A handful of stray \"more\" pages (nest, reaper, vessel, rset) got cleaned up so their extra detail is reachable again.",
+      "try": "`help topics` used to print the same page name once per section it belonged to (`help form` showed up half a dozen times), and a few GM-only pages were leaking into the player-visible index — the A-Z index now lists every topic exactly once, player-clean. Typing help with a space in a one-word verb (phantom step, for phantomstep) now finds the page instead of \"no such topic\". help library, help tailoring, help hiking, help bloodkin, help jawblade, and help petskills now land on the right lore, and help folded points at the GM fold/unfold reference (not the unrelated crime \"crooks fold\" outcome). New help alert and help refresh pages point at the real (scattered) mechanics behind those words instead of dead-ending. A handful of stray \"more\" pages (nest, reaper, vessel, rset) got cleaned up so their extra detail is reachable again."
+    },
+    {
+      "date": "2026-08-29 17:57",
+      "sort_ts": "2026-08-29T17:57:02Z",
+      "slug": "tech-media-pr8-origin",
+      "summary": "Trickster Path: prank commercial at a battered TV or the Channel 7 booth swaps only that room's ad break — not town radio, not Gabriel tvworld. Signal gods: signal blackout [parish] kills smartphone bars across the settlement; a Signal god in the room projects lifeline coverage so smart phones can stay live.",
+      "body": "Trickster Path: prank commercial at a battered TV or the Channel 7 booth swaps only that room's ad break — not town radio, not Gabriel tvworld. Signal gods: signal blackout [parish] kills smartphone bars across the settlement; a Signal god in the room projects lifeline coverage so smart phones can stay live."
+    },
+    {
+      "date": "2026-08-29 17:42",
+      "sort_ts": "2026-08-29T17:42:25Z",
+      "slug": "bug-947-holster-copyover",
+      "summary": "Holstered and sheathed weapons stay put through Veil copyovers.",
+      "body": "Holstered and sheathed weapons stay put through Veil copyovers. Hip, thigh, shoulder holsters and back-sheath slots no longer snap back to your hand or loose inventory when the world hot-reloads.",
+      "try": "Hip, thigh, shoulder holsters and back-sheath slots no longer snap back to your hand or loose inventory when the world hot-reloads."
+    },
+    {
+      "date": "2026-08-29 17:41",
+      "sort_ts": "2026-08-29T17:41:41Z",
+      "slug": "2026-08-29t17-41-41z-tech-media-pr7-wirecraft",
+      "summary": "Charlie Bradbury takes electronics-protect gigs at the Lebanon library drop; phone protect, track, and BUG taps; pager, ham, and dashcam verbs; smartphone monthly bills; and APK Barn sideloads — try phone protect drop, phone track, page, and phone app barn list.",
+      "body": "Charlie Bradbury takes electronics-protect gigs at the Lebanon library drop; phone protect, track, and BUG taps; pager, ham, and dashcam verbs; smartphone monthly bills; and APK Barn sideloads — try phone protect drop, phone track, page, and phone app barn list."
+    },
+    {
+      "date": "2026-08-29 17:35",
+      "sort_ts": "2026-08-29T17:35:12Z",
+      "slug": "phone-pr6-peachpay-overhear",
+      "summary": "PeachPay at the counter, call overhear, and three-way lines.",
+      "body": "PeachPay at the counter, call overhear, and three-way lines. Smartphone shoppers with PeachPay installed can hand the clerk their phone at the shop (`buy <item> peachpay`). `phone speaker on|off` and standing close (`approach`) control who overhears your side of a call; `phone conference` adds a third party (three max). `dial collect` and `answer collect` handle collect calls; a busy sheriff desk plays short civic hold lines until someone picks up.",
+      "try": "Smartphone shoppers with PeachPay installed can hand the clerk their phone at the shop (`buy <item> peachpay`). `phone speaker on|off` and standing close (`approach`) control who overhears your side of a call; `phone conference` adds a third party (three max). `dial collect` and `answer collect` handle collect calls; a busy sheriff desk plays short civic hold lines until someone picks up."
+    },
+    {
+      "date": "2026-08-29 17:17",
+      "sort_ts": "2026-08-29T17:17:30Z",
+      "slug": "bug-945-sewer-arrest-heat",
+      "summary": "Fixes arrest heat from open carry and gunfire in town sewers.",
+      "body": "Fixes arrest heat from open carry and gunfire in town sewers. Hunting vampires under Lebanon with stakes and iron out no longer stacks deputy heat down there -- sewers are off the civic beat for brandishing and gunfire. Deputies still chase you into the tunnels if you already drew heat on the surface. See help combat and help heat.",
+      "try": "Hunting vampires under Lebanon with stakes and iron out no longer stacks deputy heat down there -- sewers are off the civic beat for brandishing and gunfire. Deputies still chase you into the tunnels if you already drew heat on the surface. See help combat and help heat."
+    },
+    {
+      "date": "2026-08-29 17:12",
+      "sort_ts": "2026-08-29T17:12:25Z",
+      "slug": "tech-media-pr5-klvn-wea",
+      "summary": "Channel 7 is live in Lebanon.",
+      "body": "Channel 7 is live in Lebanon. Walk north from the Town Library to the Channel 7 studio, clock in as tv_host, and take the booth with klvn onair and klvn broadcast — TVs and phone app open tv show the live crawl instead of test patterns. Crazy Eddie spots rotate on the ad break; staffed shops can buy airtime with shop advertise. Sheriff desk takes missing-person alerts with cases wea request; on-duty sheriff fires them with cases wea approve (official SMS + TV crawl). Gazette storyboard report queues an evening news beat. Hunt-tip coordinates stay off civilian TV. Cosmic/God channel is still the elemental burst (help channel).",
+      "try": "Walk north from the Town Library to the Channel 7 studio, clock in as tv_host, and take the booth with klvn onair and klvn broadcast — TVs and phone app open tv show the live crawl instead of test patterns. Crazy Eddie spots rotate on the ad break; staffed shops can buy airtime with shop advertise. Sheriff desk takes missing-person alerts with cases wea request; on-duty sheriff fires them with cases wea approve (official SMS + TV crawl). Gazette storyboard report queues an evening news beat. Hunt-tip coordinates stay off civilian TV. Cosmic/God channel is still the elemental burst (help channel)."
+    },
+    {
+      "date": "2026-08-29 17:00",
+      "sort_ts": "2026-08-29T17:00:58Z",
+      "slug": "tech-media-pr4-broadcast-bus",
+      "summary": "Town broadcast bus: watch your TV for the live Channel 7 line; smartphone Radio and TV apps read the same feed. Weather WEA texts land on flips (and smart phones with bars); dead smartphones in a cell blackout miss the SMS until coverage returns. Copper house landlines and motel room phones seed on living hubs and motel units; payphones and landlines ignore blackout while smart phones go dark and flips get spotty outbound dial and text.",
+      "body": "Town broadcast bus: watch your TV for the live Channel 7 line; smartphone Radio and TV apps read the same feed. Weather WEA texts land on flips (and smart phones with bars); dead smartphones in a cell blackout miss the SMS until coverage returns. Copper house landlines and motel room phones seed on living hubs and motel units; payphones and landlines ignore blackout while smart phones go dark and flips get spotty outbound dial and text."
+    },
+    {
+      "date": "2026-08-29 16:48",
+      "sort_ts": "2026-08-29T16:48:54Z",
+      "slug": "phone-apps-peach-market",
+      "summary": "Smartphones get Peach Market apps.",
+      "body": "Smartphones get Peach Market apps. Type phone app list on your smartphone, phone app install carvana, then phone carvana or phone app open carvana. Flip phones still use phone carvana without apps. Try phone settings ringtone chime for handset cosmetics.",
+      "try": "Type phone app list on your smartphone, phone app install carvana, then phone carvana or phone app open carvana. Flip phones still use phone carvana without apps. Try phone settings ringtone chime for handset cosmetics."
+    },
+    {
+      "date": "2026-08-29 16:46",
+      "sort_ts": "2026-08-29T16:46:13Z",
+      "slug": "tech-media-pr2-sms-threads-voicemail",
+      "summary": "SMS threads and missed-call voicemail live on your handset.",
+      "body": "SMS threads and missed-call voicemail live on your handset. Text friends with `phone text` as before — messages now stack in numbered threads on the phone item (`phone texts`, `phone texts 2`). Sheriff and other official texts land in their own thread, not mixed with pals. Missed rings on your flip or smartphone leave a tape — `phone voicemail` or `phone vm` to list, `phone voicemail 1` to listen, `phone voicemail delete 1` to clear. Steal the phone, steal the inbox.",
+      "try": "Text friends with `phone text` as before — messages now stack in numbered threads on the phone item (`phone texts`, `phone texts 2`). Sheriff and other official texts land in their own thread, not mixed with pals. Missed rings on your flip or smartphone leave a tape — `phone voicemail` or `phone vm` to list, `phone voicemail 1` to listen, `phone voicemail delete 1` to clear. Steal the phone, steal the inbox."
+    },
+    {
+      "date": "2026-08-29 16:31",
+      "sort_ts": "2026-08-29T16:31:08Z",
+      "slug": "tech-media-pr1-handsets",
+      "summary": "Smartphones, pagers, and a primary handset.",
+      "body": "Smartphones, pagers, and a primary handset. Ash Garage and general shops now stock a glass smartphone beside the prepaid flip — same dial and text, its own number stamped on the item. Cheap pagers beep short codes; they are not voice lines. Carry two phones and `phone primary <name|nick>` picks which one speaks and texts; every number you still carry rings when someone dials it. `nickname <item> as <nick>` labels any carried gear — try `nickname flip as burner` then `phone primary burner`.",
+      "try": "Ash Garage and general shops now stock a glass smartphone beside the prepaid flip — same dial and text, its own number stamped on the item. Cheap pagers beep short codes; they are not voice lines. Carry two phones and `phone primary <name|nick>` picks which one speaks and texts; every number you still carry rings when someone dials it. `nickname <item> as <nick>` labels any carried gear — try `nickname flip as burner` then `phone primary burner`."
+    },
+    {
+      "date": "2026-08-29 15:58",
+      "sort_ts": "2026-08-29T15:58:07Z",
+      "slug": "bug-942-who-dict-iteration",
+      "summary": "Who no longer crashes when the world map grows mid-scan.",
+      "body": "Who no longer crashes when the world map grows mid-scan. Fixes the intermittent \"Something went wrong with that command\" on `who` and `whofull` when Cadence or travel added a room while the roster was building.",
+      "try": "Fixes the intermittent \"Something went wrong with that command\" on `who` and `whofull` when Cadence or travel added a room while the roster was building."
+    },
+    {
+      "date": "2026-08-29 15:13",
+      "sort_ts": "2026-08-29T15:13:45Z",
+      "slug": "changes-unread-remaining-highwater",
+      "summary": "Unread changelog paging keeps your place, and a rewrite that adds one ship no longer pretends you have not read any of them.",
+      "body": "Unread changelog paging keeps your place, and a rewrite that adds one ship no longer pretends you have not read any of them. Type changes new to walk the pile; login [NEWS] counts what you have not listed yet. A ship that lands while you are paging still shows as new. changes catchup still marks everything read at once.",
+      "try": "Type changes new to walk the pile; login [NEWS] counts what you have not listed yet. A ship that lands while you are paging still shows as new. changes catchup still marks everything read at once."
+    },
+    {
+      "date": "2026-08-29 14:38",
+      "sort_ts": "2026-08-29T14:38:56Z",
+      "slug": "hard-bench-craft-odds-line",
+      "summary": "Hard bench on the craft list now matches your Mechanic rank.",
+      "body": "Hard bench on the craft list now matches your Mechanic rank. Type craft at a workshop and a patch kit or shotgun assembly says sure or likely when you know the job -- a miss still burns half the kit. See help craft.",
+      "try": "Type craft at a workshop and a patch kit or shotgun assembly says sure or likely when you know the job -- a miss still burns half the kit. See help craft."
+    },
+    {
+      "date": "2026-08-29 14:28",
+      "sort_ts": "2026-08-29T14:28:27Z",
+      "slug": "djinn-ensnare-mortal-dc",
+      "summary": "Djinn poison only takes mortal minds, and a strong will can shove it off.",
+      "body": "Djinn poison only takes mortal minds, and a strong will can shove it off. Ensnare needs a human mind (hunters count). Angels, Demons, and other Lineages shrug it. Sleep is still secret, but they still have to be weaker, and higher-tier minds are harder to pull under. See help ensnare.",
+      "try": "Ensnare needs a human mind (hunters count). Angels, Demons, and other Lineages shrug it. Sleep is still secret, but they still have to be weaker, and higher-tier minds are harder to pull under. See help ensnare."
+    },
+    {
+      "date": "2026-08-29 14:27",
+      "sort_ts": "2026-08-29T14:27:35Z",
+      "slug": "bug-935-changes-unread-loop",
+      "summary": "Fix changes unread looping between the first page and caught up.",
+      "body": "Fix changes unread looping between the first page and caught up. Paging through unread changelog ships now tracks your place by lookup number instead of replaying the same screen or falsely saying you are caught up when more entries remain.",
+      "try": "Paging through unread changelog ships now tracks your place by lookup number instead of replaying the same screen or falsely saying you are caught up when more entries remain."
+    },
+    {
+      "date": "2026-08-29 14:25",
+      "sort_ts": "2026-08-29T14:25:32Z",
+      "slug": "bug-938-street-home-tinker",
+      "summary": "Street-home workshop tinker works for house owners.",
+      "body": "Street-home workshop tinker works for house owners. Claim a town house, remodel a workshop, and `tinker mailbox|fireplace|bed` again pays from your gathered wood/ore/fiber/leather — not only homestead plots.",
+      "try": "Claim a town house, remodel a workshop, and `tinker mailbox|fireplace|bed` again pays from your gathered wood/ore/fiber/leather — not only homestead plots."
+    },
+    {
+      "date": "2026-08-29 14:25",
+      "sort_ts": "2026-08-29T14:25:09Z",
+      "slug": "bug-936-craft-stack-count",
+      "summary": "Workshop craft now counts every iron scrap (and other merged reagent stacks) in your gear bag or hands — knuckles and similar recipes no longer say you are short when stacks are folded together.",
+      "body": "Workshop craft now counts every iron scrap (and other merged reagent stacks) in your gear bag or hands — knuckles and similar recipes no longer say you are short when stacks are folded together."
+    },
+    {
+      "date": "2026-08-29 14:15",
+      "sort_ts": "2026-08-29T14:15:00Z",
+      "slug": "mirage-desk-in-fiction",
+      "summary": "Book and lockup at a still, empty sheriff desk talk about the collar, not other worlds.",
+      "body": "Book and lockup at a still, empty sheriff desk talk about the collar, not other worlds. If you have no one collared they say so. The lock may simply fail to catch. See help arrest.",
+      "try": "If you have no one collared they say so. The lock may simply fail to catch. See help arrest."
+    },
+    {
+      "date": "2026-08-29 05:13",
+      "sort_ts": "2026-08-29T05:13:21Z",
+      "slug": "bug-901-931-876-travel-access",
+      "summary": "Ashen rifts no longer appear inside dungeon runs, strangers cannot walk into your homestead with `enter homestead`, and Garth's Secondhand Stake porch step opens claimed player homes while the quest is active.",
+      "body": "Ashen rifts no longer appear inside dungeon runs, strangers cannot walk into your homestead with `enter homestead`, and Garth's Secondhand Stake porch step opens claimed player homes while the quest is active."
+    },
+    {
+      "date": "2026-08-29 04:57",
+      "sort_ts": "2026-08-29T04:57:42Z",
+      "slug": "bugs-923-929-930-misc",
+      "summary": "Work stop fully clocks you out.",
+      "body": "Work stop fully clocks you out. Type work stop once and the shift ends: you are not still on duty at the desk while the clock says you quit.",
+      "try": "Type work stop once and the shift ends: you are not still on duty at the desk while the clock says you quit."
+    },
+    {
+      "date": "2026-08-29 04:56",
+      "sort_ts": "2026-08-29T04:56:01Z",
+      "slug": "bug-902-kennel-hound-dual-wield",
+      "summary": "Lloyd's hellhounds ignore ordinary steel even when you also hold a kill-kit.",
+      "body": "Lloyd's hellhounds ignore ordinary steel even when you also hold a kill-kit. A matchlock or machete in one hand no longer bites kennel hounds just because a demon-killing knife or angel blade is in the other. Lasting harm still needs the swinging piece to be an angel blade, Ruby's knife, or The Colt. See help hellhound.",
+      "try": "A matchlock or machete in one hand no longer bites kennel hounds just because a demon-killing knife or angel blade is in the other. Lasting harm still needs the swinging piece to be an angel blade, Ruby's knife, or The Colt. See help hellhound."
+    },
+    {
+      "date": "2026-08-29 04:54",
+      "sort_ts": "2026-08-29T04:54:47Z",
+      "slug": "bug-871-sheriff-book",
+      "summary": "Book and lockup at the sheriff desk hear you again.",
+      "body": "Book and lockup at the sheriff desk hear you again. Standing in the lobby (even a false-world copy that still looks like the office) and typing book or lockup now books your collar into a cell, or tells you plainly if Kansas law does not apply there. See help arrest.",
+      "try": "Standing in the lobby (even a false-world copy that still looks like the office) and typing book or lockup now books your collar into a cell, or tells you plainly if Kansas law does not apply there. See help arrest."
+    },
+    {
+      "date": "2026-08-29 04:52",
+      "sort_ts": "2026-08-29T04:52:36Z",
+      "slug": "elemental-voice-and-magic-discipline-combat-effects",
+      "summary": "Elemental voice tags and magic schools now bite in melee: flavor set elemental_voice fire|ice|lightning|stone|tide for burn, slow, crit, sunder, or stagger; parent Magic, Force Projection, Hexcraft, Spirit, Animism, Tattooing, and Warding each add their own passive or on-hit rider (Warding ripostes on block/parry without a shield). help flavor | help magic more | help counter.",
+      "body": "Elemental voice tags and magic schools now bite in melee: flavor set elemental_voice fire|ice|lightning|stone|tide for burn, slow, crit, sunder, or stagger; parent Magic, Force Projection, Hexcraft, Spirit, Animism, Tattooing, and Warding each add their own passive or on-hit rider (Warding ripostes on block/parry without a shield). help flavor | help magic more | help counter."
+    },
+    {
+      "date": "2026-08-29 04:49",
+      "sort_ts": "2026-08-29T04:49:34Z",
+      "slug": "bug-895-behead-prose-honesty",
+      "summary": "A missed behead no longer claims you took their neck.",
+      "body": "A missed behead no longer claims you took their neck. When you go for a finish and they slip it, the line is the swing -- you swing for the neck -- not a past-tense kill. See help decapitate.",
+      "try": "When you go for a finish and they slip it, the line is the swing -- you swing for the neck -- not a past-tense kill. See help decapitate."
+    },
+    {
+      "date": "2026-08-29 04:49",
+      "sort_ts": "2026-08-29T04:49:11Z",
+      "slug": "bug-914-915-gm-form-disconnect-lock",
+      "summary": "Reconnecting after a dropped connection no longer blocks `gm on` with “GM form is already open in another client.” Staff night-sight still requires `gm on` — your mortal body after `gm off` follows normal dark-room rules unless your Origin pierces darkness (help light).",
+      "body": "Reconnecting after a dropped connection no longer blocks `gm on` with “GM form is already open in another client.” Staff night-sight still requires `gm on` — your mortal body after `gm off` follows normal dark-room rules unless your Origin pierces darkness (help light)."
+    },
+    {
+      "date": "2026-08-29 04:48",
+      "sort_ts": "2026-08-29T04:48:17Z",
+      "slug": "fix-bug-932-talk-calder-crash",
+      "summary": "Fix bug: talk Calder at the sheriff desk no longer crashes the game.",
+      "body": "Fix bug: talk Calder at the sheriff desk no longer crashes the game. Cold Trail and other quest talk paths again pass civic office needles into the quest journal. Type talk Calder or talk sheriff at the desk. See help quests.",
+      "try": "Cold Trail and other quest talk paths again pass civic office needles into the quest journal. Type talk Calder or talk sheriff at the desk. See help quests."
+    },
+    {
+      "date": "2026-08-29 04:47",
+      "sort_ts": "2026-08-29T04:47:37Z",
+      "slug": "fix-bugs-868-887-autoloot-confirm",
+      "summary": "Fix bug: pit autoloot scoops the right corpse again and only announces loot that actually landed in your kit.",
+      "body": "Fix bug: pit autoloot scoops the right corpse again and only announces loot that actually landed in your kit. Repeated pit trash names no longer fool autoloot into checking an older empty husk. When your hands are full or a pickup is blocked, autoloot stops claiming you scooped gear you do not have — blocked rows stay on the corpse with a left-behind line instead.",
+      "try": "Repeated pit trash names no longer fool autoloot into checking an older empty husk. When your hands are full or a pickup is blocked, autoloot stops claiming you scooped gear you do not have — blocked rows stay on the corpse with a left-behind line instead."
+    },
+    {
+      "date": "2026-08-29 03:42",
+      "sort_ts": "2026-08-29T03:42:38Z",
+      "slug": "qol-batch-285-286-304-310",
+      "summary": "afk, it/its pronouns, and hunter instinct town names.",
+      "body": "afk, it/its pronouns, and hunter instinct town names. Type afk to slip into idle mode -- same as idle. pronoun it (or pronoun its) is a fourth look and emote option. Hunter instincts now name the town, like word of a sighting out of Seattle.",
+      "try": "Type afk to slip into idle mode -- same as idle. pronoun it (or pronoun its) is a fourth look and emote option. Hunter instincts now name the town, like word of a sighting out of Seattle."
+    },
+    {
+      "date": "2026-08-29 03:37",
+      "sort_ts": "2026-08-29T03:37:29Z",
+      "slug": "bug-918-autoloot-needs-gate",
+      "summary": "Fix bug: autoloot needs skips food for bodies without mortal hunger.",
+      "body": "Fix bug: autoloot needs skips food for bodies without mortal hunger. Gods and other actors who do not use bread-and-water needs no longer scoop ash rations and groceries when autoloot needs is on.",
+      "try": "Gods and other actors who do not use bread-and-water needs no longer scoop ash rations and groceries when autoloot needs is on."
+    },
+    {
+      "date": "2026-08-29 03:37",
+      "sort_ts": "2026-08-29T03:37:29Z",
+      "slug": "bug-913-walk-threshold",
+      "summary": "Fix bug: Trickster threshold doors explain walk and mischief gates.",
+      "body": "Fix bug: Trickster threshold doors explain walk and mischief gates. After you paint a threshold door home, `walk threshold` (or walk the direction you chose) snaps you to your bolt-hole. If no door is open yet, `walk threshold` and `threshold` now say how much mischief you need instead of a generic travel-list error.",
+      "try": "After you paint a threshold door home, `walk threshold` (or walk the direction you chose) snaps you to your bolt-hole. If no door is open yet, `walk threshold` and `threshold` now say how much mischief you need instead of a generic travel-list error."
+    },
+    {
+      "date": "2026-08-29 03:37",
+      "sort_ts": "2026-08-29T03:37:29Z",
+      "slug": "bug-886-prompt-energy-format",
+      "summary": "Fix bug: prompt energy no longer shows long float noise.",
+      "body": "Fix bug: prompt energy no longer shows long float noise. The %En token now rounds to a clean percent instead of printing raw exhaustion decimals like 0.3167937254901971.",
+      "try": "The %En token now rounds to a clean percent instead of printing raw exhaustion decimals like 0.3167937254901971."
+    },
+    {
+      "date": "2026-08-29 03:35",
+      "sort_ts": "2026-08-29T03:35:07Z",
+      "slug": "help-batch-912-298-311-292",
+      "summary": "Help pages for Force Projection, prompt codes, laptops vs online, and hunter ammo/journal.",
+      "body": "Help pages for Force Projection, prompt codes, laptops vs online, and hunter ammo/journal. `help force projection` (and force-projection / forceprojection aliases) now opens the Force Projection Magic school page instead of the death-state spirit page. `help prompt` lists every prompt code, how to set a custom line, and how to reset with `prompt default`. `help laptop` explains portable full online access and cross-links `help online` (and back). `help hunter` and `help journal hunter` spell out folklore ammo types and how to read the field journal.",
+      "try": "`help force projection` (and force-projection / forceprojection aliases) now opens the Force Projection Magic school page instead of the death-state spirit page. `help prompt` lists every prompt code, how to set a custom line, and how to reset with `prompt default`. `help laptop` explains portable full online access and cross-links `help online` (and back). `help hunter` and `help journal hunter` spell out folklore ammo types and how to read the field journal."
+    },
+    {
+      "date": "2026-08-29 02:49",
+      "sort_ts": "2026-08-29T02:49:35Z",
+      "slug": "makecar-dict-iteration-crash",
+      "summary": "Fixed a rare crash when claiming a second (or later) ride with `makecar` while another vehicle was being parked or scanned at the same moment.",
+      "body": "Fixed a rare crash when claiming a second (or later) ride with `makecar` while another vehicle was being parked or scanned at the same moment."
+    },
+    {
+      "date": "2026-08-29 02:22",
+      "sort_ts": "2026-08-29T02:22:28Z",
+      "slug": "changelog-slug-casefold",
+      "summary": "Recent ships that were missing a lookup number on changes now show one, and Discord news catches those patch notes.",
+      "body": "Recent ships that were missing a lookup number on changes now show one, and Discord news catches those patch notes. Type changes to see the numbers; type the number to open the full note.",
+      "try": "Type changes to see the numbers; type the number to open the full note."
+    },
+    {
+      "date": "2026-08-29 01:29",
+      "sort_ts": "2026-08-29T01:29:12Z",
+      "slug": "winchester-vehicle-stranded-travel",
+      "summary": "Dean and Sam no longer stall parked in the Impala mid-hunt: pursuit and homeward travel now drive/taxi out of a boarded vehicle instead of silently idling.",
+      "body": "Dean and Sam no longer stall parked in the Impala mid-hunt: pursuit and homeward travel now drive/taxi out of a boarded vehicle instead of silently idling."
+    },
+    {
+      "date": "2026-08-29 01:22",
+      "sort_ts": "2026-08-29T01:22:20Z",
+      "slug": "lag-cadence-maint-heartbeat",
+      "summary": "Town upkeep no longer slams the same heavy beat three times in a row.",
+      "body": "Town upkeep no longer slams the same heavy beat three times in a row. When the calendar runs at real-world pace, a nest or guild sweep that used to hitch for a couple of seconds, then hitch again, then again, now fires once and waits its turn.",
+      "try": "When the calendar runs at real-world pace, a nest or guild sweep that used to hitch for a couple of seconds, then hitch again, then again, now fires once and waits its turn."
+    },
+    {
+      "date": "2026-08-29 01:19",
+      "sort_ts": "2026-08-29T01:19:55Z",
+      "slug": "road-trip-finish-repairs",
+      "summary": "Roadside trouble on the highway can turn real if you park to investigate; county checkpoints stop your cruise until you talk or flee.",
+      "body": "Roadside trouble on the highway can turn real if you park to investigate; county checkpoints stop your cruise until you talk or flee."
+    },
+    {
+      "date": "2026-08-28 23:40",
+      "sort_ts": "2026-08-28T23:40:55Z",
+      "slug": "chargen-birth-year-age",
+      "summary": "Character creation now asks for a birth year (and a turning or death year for the undead and dead) instead of a flat apparent-age pick -- angels, notably, have a very old birthday indeed.",
+      "body": "Character creation now asks for a birth year (and a turning or death year for the undead and dead) instead of a flat apparent-age pick -- angels, notably, have a very old birthday indeed."
+    },
+    {
+      "date": "2026-08-28 23:35",
+      "sort_ts": "2026-08-28T23:35:26Z",
+      "slug": "highway-drive-overhaul",
+      "summary": "Long drives follow the interstates, and you can drive to any named city or landmark.",
+      "body": "Long drives follow the interstates, and you can drive to any named city or landmark. Type drive seattle, drive asylum, or drive orchard; if the route needs off-road, add offroad to accept (drive seattle offroad). Four numbers (drive 44 32 3 7) land on an exact wilderness patch, and sighted players with the map on also see the planned route highlighted. See help vehicles and help atlas.",
+      "try": "Type drive seattle, drive asylum, or drive orchard; if the route needs off-road, add offroad to accept (drive seattle offroad). Four numbers (drive 44 32 3 7) land on an exact wilderness patch, and sighted players with the map on also see the planned route highlighted. See help vehicles and help atlas."
+    },
+    {
+      "date": "2026-08-28 23:30",
+      "sort_ts": "2026-08-28T23:30:28Z",
+      "slug": "2026-08-28t23-30-28z-body-disposition-remake",
+      "summary": "County reports now cover weird deaths differently — mugging labels on vampire feeds, missing-person files when there is no body for the morgue, and essential town faces come back after a death (faster when a hunt board needs them).",
+      "body": "County reports now cover weird deaths differently — mugging labels on vampire feeds, missing-person files when there is no body for the morgue, and essential town faces come back after a death (faster when a hunt board needs them)."
+    },
+    {
+      "date": "2026-08-28 23:23",
+      "sort_ts": "2026-08-28T23:23:01Z",
+      "slug": "2026-08-28t23-23-01z-body-crime-tape",
+      "summary": "Crime-scene tape after body reports.",
+      "body": "Crime-scene tape after body reports. When someone calls in a corpse, yellow tape blocks ordinary civilians until deputies or the coroner collect the body. Fake federal badges at the tape (showid) can talk you through. Motel rooms with tape stay off the rent board. Watched sites keep a short tape log you can pull with online cctv on a laptop.",
+      "try": "When someone calls in a corpse, yellow tape blocks ordinary civilians until deputies or the coroner collect the body. Fake federal badges at the tape (showid) can talk you through. Motel rooms with tape stay off the rent board. Watched sites keep a short tape log you can pull with online cctv on a laptop."
+    },
+    {
+      "date": "2026-08-28 23:12",
+      "sort_ts": "2026-08-28T23:12:55Z",
+      "slug": "2026-08-28t23-12-55z-body-cemetery-plots",
+      "summary": "Cemetery plots and named headstones.",
+      "body": "Cemetery plots and named headstones. Morgue bodies released after the one-day hold ride the county hearse into graveyard plots with toe-tag stones that keep their names even when dug up. Try grave list, grave dig, and grave lower on consecrated ground (help grave).",
+      "try": "Morgue bodies released after the one-day hold ride the county hearse into graveyard plots with toe-tag stones that keep their names even when dug up. Try grave list, grave dig, and grave lower on consecrated ground (help grave)."
+    },
+    {
+      "date": "2026-08-28 23:05",
+      "sort_ts": "2026-08-28T23:05:27Z",
+      "slug": "body-morgue-trays",
+      "summary": "Morgue trays hold tagged bodies in real drawer furniture — look in a tray, morgue pull to read the report, morgue return before the hearse comes. After one game-day in the tray the county marks the body released for burial pickup.",
+      "body": "Morgue trays hold tagged bodies in real drawer furniture — look in a tray, morgue pull to read the report, morgue return before the hearse comes. After one game-day in the tray the county marks the body released for burial pickup."
+    },
+    {
+      "date": "2026-08-28 22:33",
+      "sort_ts": "2026-08-28T22:33:36Z",
+      "slug": "2026-08-28t22-33-36z-body-npc-identity",
+      "summary": "Townsfolk now carry a real ID and a flip phone; coroners can read a name off a body, and numbers free up after a day unless you type phone claim <number>.",
+      "body": "Townsfolk now carry a real ID and a flip phone; coroners can read a name off a body, and numbers free up after a day unless you type phone claim <number>."
+    },
+    {
+      "date": "2026-08-28 22:28",
+      "sort_ts": "2026-08-28T22:28:14Z",
+      "slug": "web-client-pro-shell",
+      "summary": "Browser play on a phone: Log, Maps, Status, and More.",
+      "body": "Browser play on a phone: Log, Maps, Status, and More. Narrow screens use a bottom bar so the story, atlas, and gauges are not crushed together. Tap or long-press a landmark to travel -- right-click still works on a computer. The room name sits above the log. Hard-refresh the play page. See help browser.",
+      "try": "Narrow screens use a bottom bar so the story, atlas, and gauges are not crushed together. Tap or long-press a landmark to travel -- right-click still works on a computer. The room name sits above the log. Hard-refresh the play page. See help browser."
+    },
+    {
+      "date": "2026-08-28 22:15",
+      "sort_ts": "2026-08-28T22:15:14Z",
+      "slug": "2026-08-28t22-15-14z-body-civic-notice",
+      "summary": "Found a body? Call it in with report death — cameras, motel staff, and fleeing witnesses now dial the sheriff so corpses do not lie around until someone walks in.",
+      "body": "Found a body? Call it in with report death — cameras, motel staff, and fleeing witnesses now dial the sheriff so corpses do not lie around until someone walks in."
+    },
+    {
+      "date": "2026-08-28 22:09",
+      "sort_ts": "2026-08-28T22:09:08Z",
+      "slug": "web-client-transcript-layout",
+      "summary": "Browser story log no longer smears over itself.",
+      "body": "Browser story log no longer smears over itself. Lines in the play tab stack like the Public comm strip. Hard-refresh the play page if overlapping text is still on screen. See help browser.",
+      "try": "Lines in the play tab stack like the Public comm strip. Hard-refresh the play page if overlapping text is still on screen. See help browser."
+    },
+    {
+      "date": "2026-08-28 21:42",
+      "sort_ts": "2026-08-28T21:42:59Z",
+      "slug": "track-inherent-bonus-wording",
+      "summary": "Hunter tracking is a built-in Background bonus, not gear.",
+      "body": "Hunter tracking is a built-in Background bonus, not gear. help track and help survival no longer call that bump a kit, so it does not read like something you buy. Type help track; professions still shows the effective bonus from Background or Origin.",
+      "try": "help track and help survival no longer call that bump a kit, so it does not read like something you buy. Type help track; professions still shows the effective bonus from Background or Origin."
+    },
+    {
+      "date": "2026-08-28 21:38",
+      "sort_ts": "2026-08-28T21:38:40Z",
+      "slug": "tracking-practice-gain-tells",
+      "summary": "Tracking trains on the trail, and profession ranks speak up.",
+      "body": "Tracking trains on the trail, and profession ranks speak up. Look for [TRAIL], then track -- even a fumble teaches you, and forest country sometimes holds game sign before you stalk. When any profession skill ticks up on the 0-5 professions bar, you get a [GAIN] line. Mission track case still does not train Tracking. See help track, help survival, and help professions.",
+      "try": "Look for [TRAIL], then track -- even a fumble teaches you, and forest country sometimes holds game sign before you stalk. When any profession skill ticks up on the 0-5 professions bar, you get a [GAIN] line. Mission track case still does not train Tracking. See help track, help survival, and help professions."
+    },
+    {
+      "date": "2026-08-28 21:01",
+      "sort_ts": "2026-08-28T21:01:16Z",
+      "slug": "help-topics-alphabetical-gmtopics",
+      "summary": "Help topics now sort A through Z; staff can type help gmtopics for every GM help page the same way.",
+      "body": "Help topics now sort A through Z; staff can type help gmtopics for every GM help page the same way."
+    },
+    {
+      "date": "2026-08-28 20:48",
+      "sort_ts": "2026-08-28T20:48:17Z",
+      "slug": "civic-office-quest-givers",
+      "summary": "Cases from a town office stay with the office.",
+      "body": "Cases from a town office stay with the office. When a sheriff, coroner, doctor, bartender, or any other civic desk changes hands, authored quests that name the job (not a person) stay with whoever currently holds the title. Unique named givers (Bobby, Rowena, and the rest) still mean that one person.",
+      "try": "When a sheriff, coroner, doctor, bartender, or any other civic desk changes hands, authored quests that name the job (not a person) stay with whoever currently holds the title. Unique named givers (Bobby, Rowena, and the rest) still mean that one person."
+    },
+    {
+      "date": "2026-08-28 20:23",
+      "sort_ts": "2026-08-28T20:23:08Z",
+      "slug": "changes-filter-precompute",
+      "summary": "The news list responds right away when you check it again.",
+      "body": "The news list responds right away when you check it again. Type changes a few times in a row: the feed should feel snappy, not like the world freezes on every look.",
+      "try": "Type changes a few times in a row: the feed should feel snappy, not like the world freezes on every look."
+    },
+    {
+      "date": "2026-08-28 20:21",
+      "sort_ts": "2026-08-28T20:21:29Z",
+      "slug": "cold-trail-sheriff-succession",
+      "summary": "Cold Trail no longer stalls if the Lebanon sheriff's desk changes hands.",
+      "body": "Cold Trail no longer stalls if the Lebanon sheriff's desk changes hands. The quest now points at \"the sheriff\" instead of a specific name, so it stays playable through Lebanon's existing desk-succession system (a deputy or patrol officer steps up when the sitting sheriff dies). Ask around the Sheriff's Office for whoever is currently wearing the star.",
+      "try": "The quest now points at \"the sheriff\" instead of a specific name, so it stays playable through Lebanon's existing desk-succession system (a deputy or patrol officer steps up when the sitting sheriff dies). Ask around the Sheriff's Office for whoever is currently wearing the star."
+    },
+    {
+      "date": "2026-08-28 19:53",
+      "sort_ts": "2026-08-28T19:53:40Z",
+      "slug": "brochure-door-pages",
+      "summary": "About and Connect pages on the public door.",
+      "body": "About and Connect pages on the public door. Open play.riftforge.me/about for what this is, or play.riftforge.me/connect for browser and telnet. Privacy stays in the footer with those links.",
+      "try": "Open play.riftforge.me/about for what this is, or play.riftforge.me/connect for browser and telnet. Privacy stays in the footer with those links."
+    },
+    {
+      "date": "2026-08-28 19:18",
+      "sort_ts": "2026-08-28T19:18:33Z",
+      "slug": "changes-lag-staleness-probe",
+      "summary": "The news list no longer freezes the world each time you check it.",
+      "body": "The news list no longer freezes the world each time you check it. Type changes, or log in when ships landed while you were away: the feed is the same ships, without a hitch on every look.",
+      "try": "Type changes, or log in when ships landed while you were away: the feed is the same ships, without a hitch on every look."
+    },
+    {
+      "date": "2026-08-28 18:45",
+      "sort_ts": "2026-08-28T18:45:48Z",
+      "slug": "house-remodel-garage-hub",
+      "summary": "Home garage stays your house, and remodel is snappy.",
+      "body": "Home garage stays your house, and remodel is snappy. Attaching a garage no longer looks like a house for sale (no buyhome in the bay). Type garage from the living room; living goes back, out is for driving. Restyling a room should feel instant. See help remodel.",
+      "try": "Attaching a garage no longer looks like a house for sale (no buyhome in the bay). Type garage from the living room; living goes back, out is for driving. Restyling a room should feel instant. See help remodel."
+    },
+    {
+      "date": "2026-08-28 18:20",
+      "sort_ts": "2026-08-28T18:20:57Z",
+      "slug": "autoloot-ignore-items",
+      "summary": "Autoloot ignore leaves junk on the floor.",
+      "body": "Autoloot ignore leaves junk on the floor. Type autoloot ignore <name> to skip that item type on future kill scoops — same catalog drops stay put until you unignore or get them by hand. See help autoloot.",
+      "try": "Type autoloot ignore <name> to skip that item type on future kill scoops — same catalog drops stay put until you unignore or get them by hand. See help autoloot."
+    },
+    {
+      "date": "2026-08-28 17:21",
+      "sort_ts": "2026-08-28T17:21:11Z",
+      "slug": "simple-bench-always-make",
+      "summary": "Easy bench jobs walk out with the piece.",
+      "body": "Easy bench jobs walk out with the piece. Type sew a plain t-shirt or craft knuckles and you leave with it -- same as a blowgun. A hoodie, a shotgun, cook, and forge can still miss. Hide and first aid did not get easier. See help craft / help sew.",
+      "try": "Type sew a plain t-shirt or craft knuckles and you leave with it -- same as a blowgun. A hoodie, a shotgun, cook, and forge can still miss. Hide and first aid did not get easier. See help craft / help sew."
+    },
+    {
+      "date": "2026-08-28 17:20",
+      "sort_ts": "2026-08-28T17:20:28Z",
+      "slug": "curio-lux-phone-text",
+      "summary": "Curio Lux texts.",
+      "body": "Curio Lux texts. Greet him on the plaza, talk curio number for his cell, then text **where** for his plaza or **quote** plus an item name for a consignment price on rare gear you carry.",
+      "try": "Greet him on the plaza, talk curio number for his cell, then text **where** for his plaza or **quote** plus an item name for a consignment price on rare gear you carry."
+    }
+  ]
+}
