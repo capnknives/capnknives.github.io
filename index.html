@@ -1,212 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mortals and Monsters — play in your browser</title>
-  <meta name="description" content="A persistent Supernatural-flavored text MUD. Browser or telnet. Free, alpha.">
-  <meta property="og:title" content="Mortals and Monsters — play in your browser">
-  <meta property="og:description" content="A persistent Supernatural-flavored text MUD. Browser or telnet. Free, alpha.">
-  <meta property="og:url" content="https://play.riftforge.me/">
+  <title>Richard Elliot — software that listens, remembers, and can take it back</title>
+  <meta name="description" content="Portfolio of Richard Elliot, an AI software engineering student in Texas: model-editing research, writing tools, voice-driven field software and a text-game engine.">
+  <meta property="og:title" content="Richard Elliot — software that listens, remembers, and can take it back">
+  <meta property="og:description" content="Portfolio of Richard Elliot, an AI software engineering student in Texas: model-editing research, writing tools, voice-driven field software and a text-game engine.">
   <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Mortals and Monsters — play in your browser">
-  <meta name="twitter:description" content="A persistent Supernatural-flavored text MUD. Browser or telnet. Free, alpha.">
-  <link rel="stylesheet" href="site.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/site.css">
+  <script>document.documentElement.className = "";</script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
-  <header>
-    <nav class="door-nav" aria-label="Site">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="about.html">About</a>
-      <a href="connect.html">Connect</a>
-      <a href="news.html">News</a>
-      <a href="cheatsheet.html">Commands</a>
-      <a href="privacy.html">Privacy</a>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="masthead">
+    <a class="name" href="index.html">Richard Elliot</a>
+    <nav aria-label="Site">
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#about">About</a>
+      <a href="https://github.com/capnknives">GitHub</a>
     </nav>
-    <p class="kicker">Alpha · no download</p>
-    <h1>Mortals and Monsters</h1>
-    <p class="lede">
-      American towns on a layered afterlife. Hunters take cases. Older things
-      borrow other people's faces. You type commands; the world keeps running
-      when you log off.
-    </p>
-    <p class="cta-row">
-      <a class="play" href="https://play.riftforge.me/client/">Play in your browser</a>
-      <a class="quiet" data-discord-invite href="https://discord.com/invite/KZbeRd389">Discord</a>
-    </p>
-    <p class="fine">Same account as telnet. Works on Chromebooks and locked-down networks.</p>
-    <p class="fine">Alpha build. Your character stays in the world when you disconnect. Discord is OOC.</p>
-    <p class="fine" data-who-line hidden></p>
-    <div class="news-ticker" data-news-ticker>
-      <p class="fine"><a href="news.html">News</a> — what changed, same list as in-game <code>changes</code>.</p>
-    </div>
   </header>
 
   <main id="main">
-    <section aria-labelledby="why-heading">
-      <h2 id="why-heading">Why this one</h2>
-      <div class="why">
-        <article>
-          <h3>You stay in the world</h3>
-          <p>Log off and you are not shelved. Your body stays as an Echo. Get hurt and you may wake up in clinic. Nobody loots you for going to dinner.</p>
-        </article>
-        <article>
-          <h3>Origins, not a class tree</h3>
-          <p>Mortal, monster, or celestial — hunter, vampire, angel, witch, and worse. Pick a Path in chargen. Type <code>help origins</code> once you are in.</p>
-        </article>
-        <article>
-          <h3>The actual map</h3>
-          <p>Drive the American overland atlas. Towns and dungeons sit on real geography. No convenience teleport.</p>
-        </article>
-        <article>
-          <h3>The town keeps living</h3>
-          <p>NPCs work, eat, hunt, and get into trouble on the same verbs you type. This is not a lobby.</p>
-        </article>
-      </div>
+    <div class="opening">
+      <h1>Software that listens, remembers, and can take it back.</h1>
+      <p class="lede">I'm Richard Elliot, an AI software engineering student in Texas. I build tools around language models, and I study what happens when you try to undo a change to one.</p>
+    </div>
+
+  <div class="prompt" data-prompt data-room-text="The front page. A plain room with four doors, each a different colour.">
+    <p class="prompt-log" data-prompt-log aria-live="polite"></p>
+    <form autocomplete="off">
+      <label for="cmd" aria-label="Command">&gt;</label>
+      <input id="cmd" type="text" inputmode="text" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="Type look, or help">
+    </form>
+  </div>
+
+    <h2 class="section-head" id="projects">Projects</h2>
+    <ul class="rooms">
+      <li data-room="retractbench">
+        <a href="projects/retractbench.html" data-exit="retractbench">
+          <span class="title">retractbench</span>
+          <span class="what">A benchmark that asks whether an edit to a language model can be fully taken back, with one protocol for every editing method.</span>
+          <span class="state">Research, open source</span>
+        </a>
+      </li>
+      <li data-room="storygecko">
+        <a href="projects/storygecko.html" data-exit="storygecko">
+          <span class="title">StoryGecko</span>
+          <span class="what">Upload a manuscript and get a story bible: who is who, what happened, and what you have not resolved yet.</span>
+          <span class="state">In development, private testing</span>
+        </a>
+      </li>
+      <li data-room="aquainspection">
+        <a href="projects/aquainspection.html" data-exit="aquainspection">
+          <span class="title">Aquainspection</span>
+          <span class="what">Pool inspection reports for Texas, filled out by talking. A technician walks the equipment pad and the report writes itself.</span>
+          <span class="state">Alpha, private demo</span>
+        </a>
+      </li>
+      <li data-room="riftforge">
+        <a href="projects/riftforge.html" data-exit="riftforge">
+          <span class="title">Riftforge</span>
+          <span class="what">A text-game engine in pure Python, and Mortals and Monsters, the persistent online world that runs on it.</span>
+          <span class="state">Live alpha, engine open source</span>
+        </a>
+      </li>
+    </ul>
+
+    <section class="plain" id="about">
+      <h2>About</h2>
+      <p>I have read code for most of my life and write scripts as a hobby. For the last four years I have studied AI ethics and how models are made, with one stubborn focus: changing the model itself, in modular and inspectable ways, instead of wrapping it in more context.</p>
+      <p>I am studying AI software engineering at Maestro College, and I plan to continue on to a computer science degree. The projects here are how I practise: each one is a working system with real users or real measurements behind it.</p>
+      <p>The best place to reach me is <a href="https://github.com/capnknives" data-exit="github">GitHub, as capnknives</a>.</p>
     </section>
 
-    <section aria-labelledby="start-heading">
-      <h2 id="start-heading">First ten minutes</h2>
-      <ol class="steps">
-        <li>Pick a name at the prompt. Same login as telnet.</li>
-        <li><code>look</code> — the room and who is here.</li>
-        <li><code>n</code> <code>s</code> <code>e</code> <code>w</code> — walk.</li>
-        <li><code>help origins</code> — what you picked in chargen.</li>
-        <li><code>help</code> — topic index. <a href="cheatsheet.html">The whole command list</a> is on the site too.</li>
-        <li><code>bug</code> what broke. <code>suggest</code> an idea.</li>
-      </ol>
-    </section>
-
-    <section aria-labelledby="mud-heading">
-      <h2 id="mud-heading">What is a MUD</h2>
-      <p>
-        A text MMO. You read room descriptions and type commands — look, n,
-        say, help — like a book you can interrupt. No art budget, so the weird
-        stuff stays weird. We put a browser client on the front so you do not
-        need a telnet program to try it.
-      </p>
-    </section>
-
-    <section aria-labelledby="connect-heading">
-      <h2 id="connect-heading">Connect</h2>
-      <ul class="connect">
-        <li>
-          <span class="label">Browser</span>
-          <a href="https://play.riftforge.me/client/">https://play.riftforge.me/client/</a>
-        </li>
-        <li>
-          <span class="label">Telnet / Mudlet</span>
-          <a href="telnet://162.243.50.82:4000">162.243.50.82:4000</a>
-          — or grab the
-          <a href="MortalsAndMonsters.mpackage">Mudlet package</a>
-          for triggers and layout.
-        </li>
-        <li>
-          <span class="label">Discord</span>
-          <a data-discord-invite data-discord-label="host" href="https://discord.com/invite/KZbeRd389">discord.com/invite/KZbeRd389</a>
-        </li>
+    <section class="plain">
+      <h2>Also</h2>
+      <ul class="also">
+        <li><a href="https://github.com/capnknives/WitsV3">WitsV3</a><br>A local-first assistant that runs on your own machine. It plans, calls tools, keeps memory, and edits its own code through a pipeline that runs the tests and either commits the change or puts the original back.</li>
       </ul>
-      <p class="fine">
-        Screen reader: type <code>config screenreader</code> once in-game to
-        flatten framed UI. The browser client also has a high-contrast theme.
-        The game never signals anything by color alone.
-      </p>
-    </section>
-
-    <section aria-labelledby="house-heading">
-      <h2 id="house-heading">House rules</h2>
-      <p>
-        <strong>18+.</strong> Horror and violence are part of the world.
-        Roleplay MUD, not hard RPI: level, trade, explore, hang out.
-        In-scene OOC, griefing, and wrong-franchise walk-ons are not allowed.
-      </p>
-      <p>
-        <strong>Free.</strong> No pay-to-play and no pay-for-perks.
-      </p>
-      <p>
-        Player versus player is allowed. The rules around it are still being
-        written. You can play a peaceful character — jobs, town, the road —
-        without hunting other players.
-      </p>
-    </section>
-
-    <section class="atlas-section" aria-labelledby="atlas-heading">
-      <h2 id="atlas-heading">America</h2>
-      <p>
-        Towns and dungeon mouths sit on real geography. Hover or tab a mark.
-        Drive there in play — this map is not a teleport button.
-      </p>
-      <div class="atlas-legend">
-        <span><i class="atlas-swatch atlas-swatch-town"></i> Town</span>
-        <span><i class="atlas-swatch atlas-swatch-dungeon"></i> Dungeon mouth</span>
-      </div>
-      <div class="atlas-frame" data-atlas-frame>
-        <img src="atlas-land.svg" alt="Lower forty-eight United States" width="960" height="600">
-      </div>
-      <p class="atlas-readout" id="atlas-readout" aria-live="polite">Hover a mark.</p>
-      <!-- atlas-names -->
-      <details class="atlas-list">
-        <summary>All towns and dungeon mouths</summary>
-        <h3>Towns</h3>
-        <ul>
-          <li>Seattle</li>
-          <li>Los Angeles</li>
-          <li>Denver</li>
-          <li>Dallas</li>
-          <li>Willis, Texas</li>
-          <li>Chicago</li>
-          <li>New York</li>
-          <li>Miami</li>
-          <li>Lebanon, Kansas</li>
-          <li>Lawrence, Kansas</li>
-          <li>Men of Letters bunker</li>
-        </ul>
-        <h3>Dungeon mouths</h3>
-        <ul>
-          <li>Roosevelt Asylum</li>
-          <li>Burkitsville Orchard</li>
-          <li>Elkins' Ridge</li>
-          <li>Monster Mafia Underground</li>
-          <li>Besieged Parish</li>
-          <li>Lloyd's Crossroads</li>
-          <li>Shattered Mirror District</li>
-          <li>Bunker Outskirts</li>
-          <li>Reaper's Convergence</li>
-          <li>Stull Convergence</li>
-          <li>Fossil Butte Convergence</li>
-          <li>Rivertown Remnant (Croatoan)</li>
-          <li>Calumet Truth District</li>
-          <li>Canton Wax Museum</li>
-          <li>Dearborn Judgment Farm</li>
-          <li>Tomahawk Billhook Plant</li>
-          <li>Laramie Auction Warehouse</li>
-          <li>Hartford Whitmer Farm</li>
-          <li>Muncie Elysian Ruin</li>
-          <li>Sonoran Coyote Shrine</li>
-        </ul>
-      </details>
-      <!-- /atlas-names -->
     </section>
   </main>
 
-  <footer>
-    <p>
-      Game: Mortals and Monsters · Engine: Riftforge
-    </p>
-    <p>
-      <a href="about.html">About</a> |
-      <a href="connect.html">Connect</a> |
-      <a href="news.html">News</a> |
-      <a href="cheatsheet.html">Commands</a> |
-      <a href="privacy.html">Privacy</a>
-    </p>
-    <p class="muted">Not affiliated with Warner Bros. or the Supernatural TV series.</p>
+  <footer class="colophon">
+    <p>Richard Elliot. Plain HTML, CSS and a little JavaScript. No framework, no build step.</p>
+    <p><a href="https://github.com/capnknives/capnknives.github.io">Source for this site</a></p>
   </footer>
-  <script src="discord-invite.js"></script>
-  <script src="status.js"></script>
-  <script src="news.js"></script>
-  <script src="atlas.js"></script>
+  <script src="assets/prompt.js"></script>
 </body>
 </html>
